@@ -1,0 +1,110 @@
+{
+  "vitals": [
+    {
+      "id": "v1",
+      "name": "Resting Heart Rate",
+      "value": 62,
+      "unit": "bpm",
+      "recorded": "2026-08-07"
+    },
+    {
+      "id": "v2",
+      "name": "Blood Pressure",
+      "value": "118/76",
+      "unit": "mmHg",
+      "recorded": "2026-08-06"
+    },
+    {
+      "id": "v3",
+      "name": "Weight",
+      "value": 72.5,
+      "unit": "kg",
+      "recorded": "2026-08-05"
+    },
+    {
+      "id": "v4",
+      "name": "Test Heart Rate",
+      "value": 60,
+      "unit": "bpm",
+      "recorded": "2026-08-08"
+    },
+    {
+      "id": "v5",
+      "name": "Test Heart Rate",
+      "value": 60,
+      "unit": "bpm",
+      "recorded": "2026-08-08"
+    },
+    {
+      "id": "v6",
+      "name": "Test Heart Rate",
+      "value": 60,
+      "unit": "bpm",
+      "recorded": "2026-08-08"
+    },
+    {
+      "id": "v7",
+      "name": "Test Heart Rate",
+      "value": 60,
+      "unit": "bpm",
+      "recorded": "2026-08-08"
+    }
+  ],
+  "metrics": {
+    "heartRate": [
+      {
+        "date": "2026-08-01",
+        "value": 65
+      },
+      {
+        "date": "2026-08-03",
+        "value": 64
+      },
+      {
+        "date": "2026-08-05",
+        "value": 66
+      },
+      {
+        "date": "2026-08-07",
+        "value": 62
+      },
+      {
+        "date": "2026-08-08",
+        "value": 60
+      },
+      {
+        "date": "2026-08-08",
+        "value": 60
+      },
+      {
+        "date": "2026-08-08",
+        "value": 60
+      },
+      {
+        "date": "2026-08-08",
+        "value": 60
+      }
+    ],
+    "weight": [
+      {
+        "date": "2026-07-01",
+        "value": 74.2
+      },
+      {
+        "date": "2026-07-15",
+        "value": 73.1
+      },
+      {
+        "date": "2026-08-01",
+        "value": 72.8
+      },
+      {
+        "date": "2026-08-07",
+        "value": 72.5
+      }
+    ]
+  },
+  "medications": [],
+  "notifications": [],
+  "oauthTokens": []
+}

@@ -1,0 +1,33 @@
+services:
+  - type: web
+    name: health-link-api
+    runtime: node
+    buildCommand: npm install
+    startCommand: npm start
+    healthCheckPath: /health
+    autoDeploy: true
+    envVars:
+      - key: NODE_ENV
+        value: production
+      - key: JWT_SECRET
+        generateValue: true
+      - key: SESSION_SECRET
+        generateValue: true
+      - key: FRONTEND_URL
+        sync: false
+      - key: GOOGLE_CLIENT_ID
+        sync: false
+      - key: GOOGLE_CLIENT_SECRET
+        sync: false
+      - key: GOOGLE_CALLBACK
+        sync: false
+      - key: GOOGLE_FIT_CLIENT_ID
+        sync: false
+      - key: GOOGLE_FIT_CLIENT_SECRET
+        sync: false
+      - key: DATA_DIR
+        value: /opt/render/project/src/data
+    disk:
+      name: health-link-data
+      mountPath: /opt/render/project/src/data
+      sizeGB: 1

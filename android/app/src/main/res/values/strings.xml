@@ -1,0 +1,7 @@
+<?xml version='1.0' encoding='utf-8'?>
+<resources>
+    <string name="app_name">HealthLink</string>
+    <string name="title_activity_main">HealthLink</string>
+    <string name="package_name">com.healthlink.app</string>
+    <string name="custom_url_scheme">com.healthlink.app</string>
+</resources>
